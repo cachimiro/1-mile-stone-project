@@ -3,7 +3,7 @@
 
 header {
     margin: 0;
-    background-color: #3fbec8;
+    background-color: #021f59;
     color: #f9f7fa;
 
 
@@ -15,7 +15,7 @@ header {
 
 
 .ui-menu-color-ceo {
-    background-color: #26ed14fa;
+    background-color: #7b84db;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -24,7 +24,7 @@ header {
 }
 
 .ui-menu-color-contacto {
-    background-color: #1a12df;
+    background-color: #5207f2;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -40,7 +40,7 @@ header {
 }
 
 .ui-menu-color-info {
-    background-color: #eb840e;
+    background-color: #bf1736;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -62,6 +62,7 @@ header {
 .bg-color-name-title {
     padding-top: 30px;
     font-family: "roboto", sans-serif;
+    text-align: center;
 }
 
 .title {
@@ -103,8 +104,8 @@ a:hover {
     background-size: cover;
     height: 410px;
     width: 370px;
-    border-top-right-radius: 20%;
-    border-bottom-right-radius: 20%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
     transition: all .5s ease-in-out;
     -moz-transition: all .10s ease-in-out;
     -webkit-transition: all .10s ease-in-out;
@@ -136,15 +137,14 @@ a:hover {
 }
 
 .dropdown i {
-    color: #222020;
+    color: #a67153;
     font-size: 20px;
 }
 
 .dropdown {
-    position: relative;
-    top: -100px;
-    right: -650px;
+    position:static;
     display: inline-block;
+    text-align: right;
 
 }
 
@@ -177,7 +177,7 @@ a:hover {
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #3fbec8;
+    background-color: none;
 
 
 }
@@ -208,9 +208,9 @@ a:hover {
 }
 
 .colour-of-infimacion {
-    background-color: #d5cdef;
-    border-top-right-radius: 20%;
-    border-bottom-right-radius: 20%;
+    background-color: #23d9b7;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
 }
 
 .personal-info-item {
@@ -467,4 +467,63 @@ footer {
     background-color: #3fbec8;
 
 
+}
+/*------------------------------------contactos.html*/
+
+.logo-3{
+     text-align: center;
+    top: -56px;
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    position: static;
+    background-color: #499aa5;
+    transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+}
+.dropbtn-links-1{
+    position: relative;
+    left: -70px;
+
+}
+/*---------------------------------contact form*/
+.contact-firm{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+    font-family: "roboto" ,sans-serif;
+    padding: 20px;
+    
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #a457bf;
+  color: #fafafa;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #5009ff;
+}
+
+.container-6 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
