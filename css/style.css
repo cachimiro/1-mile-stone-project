@@ -316,24 +316,8 @@ footer {
 
 }
 
-/*------------------------request info decoration*/
 
-.info-email {
-    line-height: 10px;
-    padding-top: 20px;
-}
 
-.email-decoration {
-    border: none;
-}
-
-.button-email {
-    border: none;
-    line-height: 18px;
-    background-color: #505254;
-    color: #fafafa;
-    font-size: 20px;
-}
 
 /*---------------------------------productos.html*/
 
@@ -535,4 +519,41 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #cacaca;
   padding: 20px;
+}
+/*--------------------------------info.html*/
+
+.progress{
+    border-radius: 10px;
+}
+.bar-1{
+    background-color: #d9a91a;
+}
+.bar-2{
+    background-color: #62deb0;
+}
+.bar-3{
+    background-color: #ff866b;
+}
+.info-header{
+    background-color: #419ba8;
+}
+.logo-4{
+     text-align: center;
+    top: -56px;
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    position: static;
+}
+.menuitem-3{
+    line-height: 100px;
+    text-align: center;
+    display: static;
+    top: -20px;
+}
+.colour-section{
+    background-color: #a66038;
+    color: #fafafa;
 }
