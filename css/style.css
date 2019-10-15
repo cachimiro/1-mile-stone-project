@@ -469,7 +469,9 @@ footer {
 
 }
 /*------------------------------------contactos.html*/
-
+.bg-color-lightblue{
+    background-color: #707070;
+}
 .logo-3{
      text-align: center;
     top: -56px;
@@ -484,10 +486,9 @@ footer {
     -moz-transition: all 2s ease-in-out;
     -webkit-transition: all 2s ease-in-out;
 }
-.dropbtn-links-1{
-    position: relative;
-    left: -70px;
-
+.menuitem-1{
+    line-height: 100px;
+    text-align: center;
 }
 /*---------------------------------contact form*/
 .contact-firm{
@@ -496,12 +497,20 @@ footer {
     font-weight: 200;
     font-family: "roboto" ,sans-serif;
     padding: 20px;
-    
+    color: #fafafa;
+
+}
+input[type=email]{
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border:1px solid #cccccc;
 }
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -510,7 +519,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #a457bf;
+  background-color: #b84bff;
   color: #fafafa;
   padding: 12px 20px;
   border: none;
@@ -524,6 +533,6 @@ input[type=submit]:hover {
 
 .container-6 {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #cacaca;
   padding: 20px;
 }
