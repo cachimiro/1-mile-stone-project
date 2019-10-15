@@ -110,6 +110,7 @@ a:hover {
     -moz-transition: all .10s ease-in-out;
     -webkit-transition: all .10s ease-in-out;
 }
+
 .menucontainer{
  font-size: 0;
 }
@@ -212,6 +213,7 @@ a:hover {
     border-top-right-radius: 5%;
     border-bottom-right-radius: 5%;
 }
+
 
 .personal-info-item {
     margin-bottom: 20px;
@@ -345,6 +347,7 @@ footer {
     -moz-transition: all 2s ease-in-out;
     -webkit-transition: all 2s ease-in-out;
 }
+
 
 .nowrap {
     flex-wrap: wrap-reverse;
@@ -556,4 +559,29 @@ input[type=submit]:hover {
 .colour-section{
     background-color: #a66038;
     color: #fafafa;
+}
+/*------------------------------media querys*/
+@media  (max-width : 400px){
+    section{
+  background-color: #5d84a6;
+  color:#fafafa;
+ 
+}
+}
+@media  (max-width : 450px){
+     section .colour-of-infimacion{
+       border-radius: 0;
+    }
+}
+@media (max-width : 450px){
+    header .logo{
+        border-radius: 0;
+        width: 100%;
+    }
+}
+@media (max-width : 450px){
+    header .menuitem{
+        border-radius: 0;
+    }
+    
 }
