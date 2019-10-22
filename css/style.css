@@ -3,7 +3,7 @@
 
 header {
     margin: 0;
-    background-color: #021f59;
+    background-color: #419ba8;
     color: #f9f7fa;
 
 
@@ -111,9 +111,10 @@ a:hover {
     -webkit-transition: all .10s ease-in-out;
 }
 
-.menucontainer{
- font-size: 0;
+.menucontainer {
+    font-size: 0;
 }
+
 #nav li {
     font-size: 20px;
     padding: 0;
@@ -122,10 +123,10 @@ a:hover {
 
 .menuitem {
     line-height: 100px;
-    border-radius: 25%;
     text-align: center;
 
 }
+
 
 /*----------------drop down button*/
 
@@ -138,12 +139,12 @@ a:hover {
 }
 
 .dropdown i {
-    color: #a67153;
+    color: #000000;
     font-size: 20px;
 }
 
 .dropdown {
-    position:static;
+    position: static;
     display: inline-block;
     text-align: right;
 
@@ -185,6 +186,11 @@ a:hover {
 
 /*-----------------------------section personal informtion informacion*/
 
+.section-heading {
+    padding: 10px;
+    text-align: center;
+}
+
 .add-padding {
     padding-top: 10px;
 }
@@ -204,19 +210,21 @@ a:hover {
 
 .three-reasons-icon {
     color: #0284f3;
-    font-size: 24px;
+    font-size: 35px;
 
 }
 
 .colour-of-infimacion {
-    background-color: #23d9b7;
-    border-top-right-radius: 5%;
-    border-bottom-right-radius: 5%;
+    background-color: #c6c6cc;
+    line-height: 18px;
+
 }
 
 
 .personal-info-item {
+    font-size: 25px;
     margin-bottom: 20px;
+    padding: 20px;
     display: block;
     clear: both;
 
@@ -326,14 +334,15 @@ footer {
 /*------------------------------header*/
 
 .productos-html {
-     background:url("../photo/cano.jpg");
-     background-repeat: none;
-}
-    
-.bg-color-photo-section{
-    background:url("../photo/cano.jpg");
+    background: url("../photo/cano.jpg");
     background-repeat: none;
 }
+
+.bg-color-photo-section {
+    background: url("../photo/cano.jpg");
+    background-repeat: none;
+}
+
 .logo-2 {
     text-align: center;
     top: -56px;
@@ -366,15 +375,17 @@ footer {
 
 
 }
-.photo-1{
+
+.photo-1 {
     border-radius: 50%;
-     -webkit-transition: border-radius 2s; 
-  transition: border-radius 2s;
+    -webkit-transition: border-radius 2s;
+    transition: border-radius 2s;
 }
-.photo-1:hover{
-  border-radius: 0;
-  transition-duration: 1s;
-  
+
+.photo-1:hover {
+    border-radius: 0;
+    transition-duration: 1s;
+
 }
 
 
@@ -384,13 +395,16 @@ footer {
     text-align: center;
 
 }
-.dropbtn-links{
+
+.dropbtn-links {
     top: -56px;
     padding: 0;
     margin: 0;
 }
+
 /*--------------------------hover image information*/
-.font-style{
+
+.font-style {
     color: #111111;
     font-family: "roboto", sans-serif;
     font-weight: 600;
@@ -398,14 +412,17 @@ footer {
     text-shadow: 2px 2px #28c7db;
     padding: 10px;
 }
+
 /*-------------------------drop-down-button-2*/
-.dropdown-2{
+
+.dropdown-2 {
     position: static;
     right: -500px;
-    top:13;
+    top: 13;
     z-index: 1;
 
 }
+
 .dropbtn-2 {
     background-color: transparent;
     color: #222020;
@@ -455,12 +472,15 @@ footer {
 
 
 }
+
 /*------------------------------------contactos.html*/
-.bg-color-lightblue{
-    background-color: #707070;
+
+.bg-color-lightblue {
+    background-color: #fafafa;
 }
-.logo-3{
-     text-align: center;
+
+.logo-3 {
+    text-align: center;
     top: -56px;
     background-repeat: no-repeat;
     width: 280px;
@@ -473,75 +493,80 @@ footer {
     -moz-transition: all 2s ease-in-out;
     -webkit-transition: all 2s ease-in-out;
 }
-.menuitem-1{
+
+.menuitem-1 {
     line-height: 100px;
     text-align: center;
 }
+
 /*---------------------------------contact form*/
-.contact-firm{
+
+.contact-firm {
     text-align: center;
     font-size: 40px;
     font-weight: 200;
-    font-family: "roboto" ,sans-serif;
+    font-family: "roboto", sans-serif;
     padding: 20px;
-    color: #fafafa;
+    color: #000000;
 
 }
-input[type=email]{
+
+input[type=email] {
     width: 100%;
     border-radius: 4px;
     margin-bottom: 10px;
     padding: 10px;
-    border:1px solid #cccccc;
+    border: 1px solid #cccccc;
 }
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #cccccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
 
 input[type=submit] {
-  background-color: #b84bff;
-  color: #fafafa;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+    background-color: #b84bff;
+    color: #fafafa;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #5009ff;
+    background-color: #5009ff;
 }
 
 .container-6 {
-  border-radius: 5px;
-  background-color: #cacaca;
-  padding: 20px;
+    border-radius: 5px;
+    background-color: #cacaca;
+    padding: 20px;
 }
+
 /*--------------------------------info.html*/
 
-.progress{
+.progress {
     border-radius: 10px;
 }
-.bar-1{
-    background-color: #d9a91a;
+
+.progress-bar {
+    background-color: #122a2f;
 }
-.bar-2{
-    background-color: #62deb0;
-}
-.bar-3{
-    background-color: #ff866b;
-}
-.info-header{
+
+.info-header {
     background-color: #419ba8;
 }
-.logo-4{
-     text-align: center;
+
+.logo-4 {
+    text-align: center;
     top: -56px;
     background-repeat: no-repeat;
     width: 280px;
@@ -550,38 +575,51 @@ input[type=submit]:hover {
     padding: 0px;
     position: static;
 }
-.menuitem-3{
+
+.menuitem-3 {
     line-height: 100px;
     text-align: center;
     display: static;
     top: -20px;
 }
-.colour-section{
-    background-color: #a66038;
-    color: #fafafa;
+
+.colour-section {
+    background-color: #fafafa;
+    color: #000000;
 }
+
 /*------------------------------media querys*/
-@media  (max-width : 400px){
-    section{
-  background-color: #5d84a6;
-  color:#fafafa;
- 
-}
-}
-@media  (max-width : 450px){
-     section .colour-of-infimacion{
-       border-radius: 0;
+
+@media (max-width: 450px) {
+    section {
+        width: 100%;
+        line-height: 25px;
     }
 }
-@media (max-width : 450px){
-    header .logo{
+
+
+
+@media (max-width: 450px) {
+    section .colour-of-infimacion {
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 450px) {
+    header .logo {
         border-radius: 0;
         width: 100%;
     }
 }
-@media (max-width : 450px){
-    header .menuitem{
+
+@media (max-width: 450px) {
+    header .menuitem {
         border-radius: 0;
     }
-    
+
+}
+@media (max-width: 1300px){
+    body{
+        position: static;
+    }
 }
