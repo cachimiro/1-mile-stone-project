@@ -15,7 +15,7 @@ header {
 
 
 .ui-menu-color-ceo {
-    background-color: #7b84db;
+    background-color:#499aa5;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -24,7 +24,7 @@ header {
 }
 
 .ui-menu-color-contacto {
-    background-color: #5207f2;
+    background-color: #499aa5;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -32,7 +32,7 @@ header {
 }
 
 .ui-menu-color-productos {
-    background-color: #e118df;
+    background-color: #499aa5;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -40,7 +40,7 @@ header {
 }
 
 .ui-menu-color-info {
-    background-color: #bf1736;
+    background-color: #499aa5;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -57,6 +57,11 @@ header {
 
 .list-inline-item:not(:last-child) {
     margin: 0;
+}
+
+.list-inline-item:hover{
+    background-color: #757b7b;
+    border-radius: 50%;
 }
 
 .bg-color-name-title {
@@ -114,6 +119,8 @@ a:hover {
 .menucontainer {
     font-size: 0;
 }
+
+
 
 #nav li {
     font-size: 20px;
@@ -333,22 +340,14 @@ footer {
 
 /*------------------------------header*/
 
-.productos-html {
-    background: url("../photo/cano.jpg");
-    background-repeat: none;
-}
 
-.bg-color-photo-section {
-    background: url("../photo/cano.jpg");
-    background-repeat: none;
-}
 
 .logo-2 {
     text-align: center;
-    top: -56px;
+    top: -36px;
     background-repeat: no-repeat;
-    width: 280px;
-    height: 280px;
+    width: 200px;
+    height: 200px;
     margin: 0px;
     padding: 0px;
     background-color: #499aa5;
@@ -483,8 +482,8 @@ footer {
     text-align: center;
     top: -56px;
     background-repeat: no-repeat;
-    width: 280px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     margin: 0px;
     padding: 0px;
     position: static;
@@ -569,8 +568,8 @@ input[type=submit]:hover {
     text-align: center;
     top: -56px;
     background-repeat: no-repeat;
-    width: 280px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     margin: 0px;
     padding: 0px;
     position: static;
@@ -614,7 +613,7 @@ input[type=submit]:hover {
 
 @media (max-width: 450px) {
     header .menuitem {
-        border-radius: 0;
+        background-color: grey;
     }
 
 }
@@ -623,3 +622,4 @@ input[type=submit]:hover {
         position: static;
     }
 }
+ 
