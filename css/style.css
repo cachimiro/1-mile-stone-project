@@ -610,6 +610,16 @@ input[type=submit]:hover {
         width: 100%;
     }
 }
+@media (max-width:450px){
+    .menuitem-3{
+        background-color: lightgrey;
+    }
+}
+@media (max-width:450px){
+    .menuitem-1{
+        background-color: lightgrey;
+    }
+}
 
 @media (max-width: 450px) {
     header .menuitem {
