@@ -305,6 +305,7 @@ h3 i {
 
 /*-----------------------footer*/
 
+
 .social-media-icons i {
     color: #fafafa;
     text-align: center;
@@ -329,6 +330,7 @@ footer {
     background-color: #505254;
     margin: 0;
     color: #fafafa;
+    position: static;
 
 
 }
@@ -610,20 +612,20 @@ input[type=submit]:hover {
         width: 100%;
     }
 }
-@media (max-width:450px){
+@media (max-width:500px){
     .menuitem-3{
-        background-color: lightgrey;
+        background-color:  #c6c6cc;
     }
 }
-@media (max-width:450px){
+@media (max-width:500px){
     .menuitem-1{
-        background-color: lightgrey;
+        background-color:  #c6c6cc;
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
     header .menuitem {
-        background-color: lightgrey;
+        background-color:  #c6c6cc;
     }
 
 }
