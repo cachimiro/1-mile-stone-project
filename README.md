@@ -15,23 +15,35 @@ I achieved this by providing a user-friendly experience with the basic informati
 Features
 
 •	CEO button allows the user to get an InSite about the company: what it does, the sponsors it has and the contact information of the owner.
+
 •	Contact button allows the user to request any information or questions they would like an answer for, if they decide that they don’t want to call.
+
 •	Products button allows the user to see the products that the company makes.
+
 •	Info button allows the user to see how well the company is doing.
 In the future. The website will be developed to not only have information about the company. But make it will allow for the user to purchased products, and have automated emails, so that the company can get feedback from every purchase that is made.
 Features Left to Implement
+
 •	Code so that the email can do what is meant to do, by using JavaScript to achieve  this. 
 
 Technologies Used
+
 HTML, provided the basic structure for my website
- CSS, gave the style I needed and allowed me to move items across the web page 
- BOOTSTRAP, gave mw the basic framework to make the website look good 
- FONT AWESOME, gave the Icons to make it better user-friendly experience  
- HOVER CSS, that allowed the icons from Font Awesome to move, so that page could be animated 
+
+CSS, gave the style I needed and allowed me to move items across the web page 
+
+BOOTSTRAP, gave mw the basic framework to make the website look good 
+
+FONT AWESOME, gave the Icons to make it better user-friendly experience  
+
+HOVER CSS, that allowed the icons from Font Awesome to move, so that page could be animated 
+
 JavaScript, to animate the progression bars.
 
 Testing
+
 1.	I have tested this website not only with mentor, but I have opened in my mobile phone and on all the screen sizes I have available, so that I could get an idea of what it will look like in different screen sizes, plus I have used the google chrome developer tools to test for screen size. After the web site was done, I made sure that every button, every picture did what it was meant to do. Also I got some friends to have a look around and tell me what was not working to help and minimise the risk of having an error. 
+
 2.	In the prosses of testing I got several friends to a look at the website, I got the mentor to have a look at the website, also  my self testes all the links, all the pictures to make sure they did what they had to do.
 i.	Go to the "Contact “ you will see that it will not let you submit unless you fill the fields that are required.
 ii.	If you try to submit the form without filling the information required, an error message will come up, saying that you have to fill this section.
@@ -49,12 +61,13 @@ This site is hosted in GitHub , deployed straight away from the master branch. T
 Credits
 
 Content
-•	All the texts/information were provided by the owner of the company and my own words 
+
+•	All the texts/information were provided by the owner of the company and my own words to translate it to the English language 
+
 Media
-
 •	The photos used in this site were obtained from, the owner of the company and a picture of herself 
-Acknowledgements
 
-•	I received inspiration for this project from; clothing, brands, past projects done with the code institute.
+Acknowledgements
+•	I received inspiration for this project from; clothing brands, past projects done with the code institute.
 
 
