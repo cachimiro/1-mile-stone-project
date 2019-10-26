@@ -185,11 +185,7 @@ a:hover {
     display: block;
 }
 
-.dropdown:hover .dropbtn {
-    background-color: none;
 
-
-}
 
 /*-----------------------------section personal informtion informacion*/
 
@@ -419,7 +415,7 @@ footer {
 .dropdown-2 {
     position: static;
     right: -500px;
-    top: 13;
+    top: 0;
     z-index: 1;
 
 }
@@ -580,7 +576,6 @@ input[type=submit]:hover {
 .menuitem-3 {
     line-height: 100px;
     text-align: center;
-    display: static;
     top: -20px;
 }
 
